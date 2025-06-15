@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EEG2Gaussian
 
 > **Decoding and Visualizing Visual‑Evoked EEG for VR Scenes Using 3D Gaussian Splatting**
@@ -148,3 +149,9 @@ Released under the **MIT License**—see the [LICENSE](LICENSE) file for details
 - [3D Gaussian Splatting](https://repo-supplied-link) — fast 3D scene reconstruction
 - The ImageNet‑EEG team and the open‑source community for their invaluable resources.
 
+=======
+This is the EEG encoder section of the EEG2Gaussian project.
+![alt text](images/overview.png)
+![alt text](images/pipeline.png)
+![alt text](images/result.png)
+>>>>>>> 7438cc1171a1d896c677bf999526be40d35f943c
