@@ -114,10 +114,10 @@ with torch.no_grad():
 
 On the public ImageNet‑EEG split we obtain (single RTX 3090 24 GB):
 
-| Setup                 | Top‑1 Acc  | CLIP Matching (> 0.5) |
+| Setup                 | Top‑1 Acc  | CLIP Matching |
 | --------------------- | ---------- | --------------------- |
-| **Ours (EEG + CLIP)** | **41.2 %** | **67.8 %**            |
-| EEG Baseline          | 34.5 %     | –                     |
+| **Ours (EEG + CLIP)** | **53.03 %** | **98 %**            |
+| EEG Baseline          | 47.66 %     | –                     |
 
 Qualitative reconstructions and additional visuals are available in `images/result.png`.
 
@@ -126,12 +126,7 @@ Qualitative reconstructions and additional visuals are available in `images/resu
 ## 📜 Citation
 
 ```bibtex
-@article{zhang2025eeg2gaussian,
-  title   = {EEG2Gaussian: Decoding and Visualizing Visual‑Evoked EEG for VR Scenes Using 3D Gaussian Splatting},
-  author  = {Zhang, Liming and Li, X.X. and Wang, X.X.},
-  journal = {IEEE Transactions on Visualization and Computer Graphics},
-  year    = {2025}
-}
+
 ```
 
 ---
